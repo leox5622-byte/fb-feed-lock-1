@@ -7,8 +7,8 @@ Repo: [github.com/leox12x/fb-feed-lock](https://github.com/leox12x/fb-feed-lock)
 
 ## What it does
 - Blocks scrolling on the Facebook home page (mouse wheel, touch swipe, arrow keys, PageUp/Down, spacebar).
-- Hides the home feed behind a 🔒 lock screen so you don't see posts.
-- Everything else still works: Messenger, search, your profile, groups, etc.
+- Hides the home feed entirely — the post column goes blank (a small "Feed hidden · made by Rl" note sits in its place).
+- Everything else stays normal: top bar, sidebars, Messenger, search, your profile, groups, etc.
 - It only activates on the home page (`/`, `/home.php`). Leave home and it unlocks automatically.
 
 ## Install (load unpacked)

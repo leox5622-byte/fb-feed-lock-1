@@ -1,51 +1,25 @@
+/* Block home-page scrolling only. */
 .fbl-locked,
 .fbl-locked body {
   overflow: hidden !important;
   overscroll-behavior: none !important;
 }
 
-#fb-feed-lock-overlay {
-  position: fixed;
-  inset: 0;
-  z-index: 2147483647;
-  background: rgba(15, 20, 30, 0.96);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-}
-
-#fb-feed-lock-overlay .fbl-card {
+/* Small note that replaces the blanked feed column. */
+#fbl-note {
+  margin: 48px auto;
+  padding: 80px 20px;
   text-align: center;
-  color: #e7e9ee;
-  max-width: 420px;
-  padding: 40px 32px;
-}
-
-#fb-feed-lock-overlay .fbl-emoji {
-  font-size: 56px;
-  margin-bottom: 16px;
-}
-
-#fb-feed-lock-overlay h2 {
-  font-size: 24px;
-  margin: 0 0 10px;
-}
-
-#fb-feed-lock-overlay p {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
   font-size: 15px;
-  color: #9aa3b2;
-  margin: 0;
+  color: #8a8d91;
 }
 
-#fb-feed-lock-overlay .fbl-credit {
-  display: inline-block;
-  margin-top: 22px;
-  font-size: 13px;
+#fbl-note a {
   color: #5b9dff;
   text-decoration: none;
 }
 
-#fb-feed-lock-overlay .fbl-credit:hover {
+#fbl-note a:hover {
   text-decoration: underline;
 }
