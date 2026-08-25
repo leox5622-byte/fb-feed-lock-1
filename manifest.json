@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "FB Feed Lock",
+  "version": "1.0",
+  "description": "Blocks scrolling and hides all home-feed posts on Facebook. Made by Rl (github.com/leox12x). Messenger and everything else still works.",
+  "homepage_url": "https://github.com/leox12x/fb-feed-lock",
+  "content_scripts": [
+    {
+      "matches": ["*://www.facebook.com/*", "*://web.facebook.com/*"],
+      "js": ["content.js"],
+      "css": ["lock.css"],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
